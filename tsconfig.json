@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "noEmit": true,
+        "sourceMap": false,
+        "lib": ["es2015", "scripthost", "es2017", "dom"]
+    },
+    "include":[
+        "typings/index.d.ts",
+        "node_modules/rxjs/Rx.d.ts",
+        "00-init.ts",
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
